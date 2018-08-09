@@ -1,4 +1,4 @@
-OBJ=main.o DulList.o
+OBJ=main.o dlist.o
 main:${OBJ}
 	gcc -g -o main ${OBJ} -Wall
 clean:
